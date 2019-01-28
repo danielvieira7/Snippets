@@ -1,0 +1,23 @@
+Como criar um atalho no mac para mudar a aparência do sistema para o modo escuro:
+
+1) Abrir o Automator
+2) Escolher a opção "Ação Rápida"
+3) Depois selecione "Executar AppleScript
+4) Fluxo de Trabalho Recebe: "Sem Entrada" em "Qualquer Aplicativo"
+5) Cole o código abaixo:
+
+tell application "System Events"
+	tell appearance preferences
+		set dark mode to not dark mode
+	end tell
+end tell
+
+6) Salva com qualquer nome
+7) Fecha o Automator.
+8) Vai em Preferência do Sistema
+9) Teclado
+10) Atalhos
+11) Serviços
+12) Geral
+13) Procura o nome que vc deu pro script do Automator
+14) Define seu atalho =)
