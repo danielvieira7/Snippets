@@ -4,7 +4,7 @@ Como criar um atalho no mac para mudar a aparência do sistema para o modo escur
 2) Escolher a opção "Ação Rápida"
 3) Depois selecione "Executar AppleScript
 4) Fluxo de Trabalho Recebe: "Sem Entrada" em "Qualquer Aplicativo"
-5) Cole o código abaixo:
+5) Copie e Cole o código abaixo:
 
 tell application "System Events"
 	tell appearance preferences
